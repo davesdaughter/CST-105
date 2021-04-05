@@ -1,20 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-03-17T00:25:32.207Z" agent="5.0 (Macintosh)" etag="DhAAbsBf7A-UNYaPBehC" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-05T17:01:57.188Z" agent="5.0 (Macintosh)" etag="o2K5tdejIWiuO37Cfimw" version="14.5.6" type="github">
   <diagram id="xhGupmHzeyfqEFG5KUTX" name="Page-1">
-    <mxGraphModel dx="946" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="460" dy="314" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="a1aCwHxB-Evs1qeF62de-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="a1aCwHxB-Evs1qeF62de-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a1aCwHxB-Evs1qeF62de-2" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="a1aCwHxB-Evs1qeF62de-2" value="Set up game for 4 players, randomize, shuffle, and discard/pick-up files" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a1aCwHxB-Evs1qeF62de-3" value="" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="a1aCwHxB-Evs1qeF62de-3" value="Each player begins and ends turn" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a1aCwHxB-Evs1qeF62de-4" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="400" width="120" height="80" as="geometry" />
+        <mxCell id="a1aCwHxB-Evs1qeF62de-4" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="510" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vSgDeQvD3tMl_MxL7Wka-1" value="&lt;font style=&quot;font-size: 12px&quot;&gt;Print out, Player (a), &quot;You are the winner!&quot;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vSgDeQvD3tMl_MxL7Wka-3" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.75" y="240" as="sourcePoint" />
+            <mxPoint x="199.75" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vSgDeQvD3tMl_MxL7Wka-4" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="vSgDeQvD3tMl_MxL7Wka-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.75" y="340" as="sourcePoint" />
+            <mxPoint x="199.75" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vSgDeQvD3tMl_MxL7Wka-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="a1aCwHxB-Evs1qeF62de-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.75" y="450" as="sourcePoint" />
+            <mxPoint x="200" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vSgDeQvD3tMl_MxL7Wka-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="a1aCwHxB-Evs1qeF62de-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.75" y="120" as="sourcePoint" />
+            <mxPoint x="199.75" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
